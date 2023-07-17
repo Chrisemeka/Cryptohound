@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(./cryptocurrency-img/images/background.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 0 5%;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.lang{
+    margin: 30px 0px;
+}
+button{
+    padding: 5px 25px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.navElements li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.navElements li img{
+    width: 40px;
+}
+.header{
+    margin-top: 150px;
+}
+.header h1{
+    font-size: 4.0em;
+    margin-bottom: 20px; 
+}
+.header p{
+    margin-bottom: 20px; 
+}
+.header h1{
+    font-size: 4.0em;
+    margin-bottom: 20px; 
+}
+.header span{
+    color: orange;
+}
+.header button{
+    padding: 10px 25px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: orange;
+    color: #fff;
+}
+.trade{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.trade .border{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.trade .border p{
+    color: orange;
+}
+.trade .border span{
+    color: #fff;
+}
+.trade div{
+    display: inline-block;
+}
+.coinImage img{
+    width: 34px;
+}
